@@ -1,12 +1,14 @@
-# Atomic Scraper Tool
+# Atomic Scraper Tool v2.0 🚀
 
-Next-generation intelligent web scraping tool built with the **Atomic Agents v2.0** framework. This AI-powered tool provides advanced natural language processing, dynamic strategy generation, and ethical data extraction capabilities with unprecedented intelligence and ease of use.
+**Next-generation intelligent web scraping tool** with revolutionary **Enhanced Navigation Analysis** built on the **Atomic Agents v2.0** framework. This AI-powered tool now features **adaptive website intelligence**, **complex navigation detection**, and **automatic analysis depth selection** for unprecedented scraping capabilities.
 
 > **⚡ Requirements**: This tool requires **atomic-agents >=2.0.0** and **Python >=3.12**. See [atomic-agents v2.0 upgrade guide](https://github.com/BrainBlend-AI/atomic-agents/blob/main/UPGRADE_DOC.md) for migration details.
 
 > **🎯 Maximum Versatility**: Works perfectly as a **standalone CLI application**, **Python library**, or **orchestrated component** in multi-agent systems like atomic-cli and intelligent-web-scraper. Features innovative **model provider injection** for seamless integration across any execution context.
 
-## 🚀 **Why Choose Atomic Scraper Tool?**
+> **🧠 NEW in v2.0**: **Adaptive Navigation Intelligence** - Automatically detects complex navigation patterns (mega menus, mobile navigation, advanced pagination) and adapts analysis depth based on website complexity while maintaining 100% backward compatibility.
+
+## 🚀 **Why Choose Atomic Scraper Tool v2.0?**
 
 | Feature | Benefit | Use Case |
 |---------|---------|----------|
@@ -16,12 +18,40 @@ Next-generation intelligent web scraping tool built with the **Atomic Agents v2.
 | **⚙️ Highly Configurable** | Extensive customization options | Enterprise deployments, specialized needs |
 | **🛡️ Production Ready** | Ethical compliance, monitoring, error handling | Mission-critical applications |
 
+## ✨ **NEW in v2.0: Enhanced Navigation Intelligence**
+
+### 🧠 **Adaptive Website Analysis**
+- **🔄 Intelligent Analysis Selection**: Automatically chooses standard vs enhanced analysis based on website complexity
+- **📊 Complexity Scoring**: 0.0-1.0 scale complexity assessment with configurable thresholds
+- **⚡ Performance Optimized**: Only uses enhanced analysis when beneficial (simple sites stay fast)
+- **🔧 Fully Configurable**: Tunable complexity triggers and feature detection settings
+- **💾 Smart Caching**: Analysis result caching for improved performance
+- **🔄 100% Backward Compatible**: All existing v1.x code continues to work unchanged
+
+### 🎯 **Enhanced Navigation Detection**
+- **🏗️ Hierarchical Navigation**: Multi-level menu structures with unlimited depth detection
+- **🎨 Mega Menu Analysis**: Column-based layouts with section and category detection
+- **📱 Mobile Navigation**: Hamburger menus, slide directions, overlays, and responsive patterns
+- **📄 Advanced Pagination**: Infinite scroll, load-more buttons, numbered pagination, and cursor-based
+- **🔗 Contextual Navigation**: Tags, categories, related links, social sharing, and author links
+- **🔍 Search & Filter Detection**: Form elements, sorting options, view toggles, and faceted search
+- **🍞 Breadcrumb Variations**: Multiple patterns including schema.org structured data
+- **⚡ Dynamic Content**: JavaScript-based navigation and AJAX loading indicators
+- **♿ Accessibility Analysis**: ARIA labels, skip links, keyboard navigation, and compliance features
+
+### 🎯 **Smart Strategy Generation**
+- **📈 Navigation-Aware Planning**: Uses enhanced navigation data for intelligent scraping strategies
+- **🎯 Context-Aware Recommendations**: Suggests optimal approaches based on detected navigation patterns
+- **📱 Mobile-Optimized Strategies**: Handles responsive navigation and mobile-specific patterns
+- **🔄 Pagination-Smart Planning**: Adapts to infinite scroll, load-more, and complex pagination
+- **🎛️ Filter-Aware Scraping**: Leverages filtering capabilities for comprehensive data extraction
+
 ## Features
 
 ### 🎯 **Core Capabilities**
 - 🤖 **AI-Powered Planning**: Natural language scraping requests with intelligent strategy generation
-- � **QDynamic Analysis**: Automatic website structure analysis and schema recipe generation
-- �  **Quality Scoring**: Built-in data quality assessment and validation
+- 🔍 **Dynamic Analysis**: Automatic website structure analysis and schema recipe generation
+- 📊 **Quality Scoring**: Built-in data quality assessment and validation
 - 🛡️ **Ethical Compliance**: Robots.txt respect, rate limiting, and privacy compliance
 - 🧪 **Comprehensive Testing**: Mock website generation and integration testing
 - 📈 **Performance Monitoring**: Built-in metrics and performance tracking
